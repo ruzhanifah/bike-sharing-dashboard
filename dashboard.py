@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 
 # Load Data
-pd.read_csv('day.csv')
+df = pd.read_csv('day.csv')
 
 df['dteday'] = pd.to_datetime(df['dteday'])
 df['month'] = df['dteday'].dt.month
@@ -117,7 +117,7 @@ st.markdown("""
 st.subheader("Analisis Lanjutan: Pola Penyewaan per Jam ⏰")
 
 # Load hour dataset
-pd.read_csv('hour.csv')
+df_hour = pd.read_csv('hour.csv')
 
 # Preprocessing
 df_hour['dteday'] = pd.to_datetime(df_hour['dteday'])
