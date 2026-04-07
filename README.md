@@ -17,6 +17,3 @@ Proyek ini bertujuan untuk menganalisis pola penyewaan sepeda menggunakan datase
 - Seaborn
 - Matplotlib
 - Streamlit
-
-## 🚀 Cara Menjalankan Dashboard
-1. Install dependencies:
